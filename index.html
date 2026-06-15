@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هيد | HEED - قهوة مختصة في قلب جدة</title>
+    <meta name="description" content="هيد - مقهى ومساحة إبداعية في جدة مستوحاة من روح الحياة البدوية العربية. قهوة مختصة، تجربة أصيلة، مجتمع حقيقي.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">هيد</div>
+            <div class="preloader-bar"><div class="preloader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">◇</span>
+                <span class="logo-text">هيد</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">القصة</a>
+                <a href="#menu" class="nav-link">القائمة</a>
+                <a href="#gallery" class="nav-link">المعرض</a>
+                <a href="#space" class="nav-link">المساحة</a>
+                <a href="#contact" class="nav-link">تواصل</a>
+            </div>
+            <a href="#contact" class="nav-cta">احجز طاولتك</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-link">الرئيسية</a>
+            <a href="#about" class="mobile-link">القصة</a>
+            <a href="#menu" class="mobile-link">القائمة</a>
+            <a href="#gallery" class="mobile-link">المعرض</a>
+            <a href="#space" class="mobile-link">المساحة</a>
+            <a href="#contact" class="mobile-link">تواصل</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="images/post_001.png" alt="" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span>مقهى ومساحة إبداعية</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line" style="--delay:0">هـ</span>
+                <span class="title-line" style="--delay:1">يـ</span>
+                <span class="title-line" style="--delay:2">د</span>
+            </h1>
+            <p class="hero-subtitle">HEED CAFE</p>
+            <p class="hero-desc">قهوة مختصة في قلب جدة<br>مستلهمة من روح البداوة والأصالة</p>
+            <div class="hero-cta">
+                <a href="#menu" class="btn btn-primary">
+                    <span>اكتشف القائمة</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#about" class="btn btn-outline">قصتنا</a>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-line"></div>
+                <span>اكتشف</span>
+            </div>
+        </div>
+        <div class="hero-images">
+            <div class="hero-img-card" style="--r:-5deg; --x:-30px">
+                <img src="images/post_002.png" alt="">
+            </div>
+            <div class="hero-img-card" style="--r:4deg; --x:20px">
+                <img src="images/post_003.png" alt="">
+            </div>
+            <div class="hero-img-card" style="--r:-3deg; --x:-10px">
+                <img src="images/post_004.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <span>◆ قهوة مختصة</span>
+            <span>◆ تجربة أصيلة</span>
+            <span>◆ مجتمع حقيقي</span>
+            <span>◆ أصالة وحداثة</span>
+            <span>◆ جدة، السعودية</span>
+            <span>◆ قهوة مختصة</span>
+            <span>◆ تجربة أصيلة</span>
+            <span>◆ مجتمع حقيقي</span>
+            <span>◆ أصالة وحداثة</span>
+            <span>◆ جدة، السعودية</span>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-label">
+                        <span class="label-num">01</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">القصة</span>
+                    </div>
+                    <h2 class="section-title">أكثر من مقهى<br><span class="highlight">هو تجربة</span></h2>
+                    <p class="about-text">هيد ليس مجرد مكان تشرب فيه القهوة — إنه مبنى على الأصالة والانتماء والمجتمع الحقيقي. كل تفصيل في الهوية تم صنعه بقصد، من الألوان المستوحاة من الصحراء إلى الأنماط التي تتردد صداها التراث.</p>
+                    <p class="about-text">مستلهمة من روح الحياة البدوية العربية الدائمة، تجمع هيد بين البساطة والعمق الثقافي في توازن فريد يربط التراث بالحداثة.</p>
+                    <div class="about-values">
+                        <div class="value-card">
+                            <span class="value-icon">◇</span>
+                            <strong>الأصالة</strong>
+                            <span>نحترم التراث ونحتفي به</span>
+                        </div>
+                        <div class="value-card">
+                            <span class="value-icon">◇</span>
+                            <strong>الولاء</strong>
+                            <span>علاقات حقيقية تدوم</span>
+                        </div>
+                        <div class="value-card">
+                            <span class="value-icon">◇</span>
+                            <strong>المجتمع</strong>
+                            <span>مساحة للتواصل والإبداع</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-main">
+                        <img src="images/post_005.png" alt="Heed Cafe">
+                    </div>
+                    <div class="visual-float-1">
+                        <img src="images/post_006.png" alt="">
+                    </div>
+                    <div class="visual-float-2">
+                        <img src="images/post_007.png" alt="">
+                    </div>
+                    <div class="visual-pattern"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label center">
+                    <span class="label-num">02</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">القائمة</span>
+                </div>
+                <h2 class="section-title center">نكهات <span class="highlight">استثنائية</span></h2>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_008.png" alt="Espresso">
+                        <div class="card-badge">الأكثر طلباً</div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">قهوة</span>
+                        <h3>إسبريسو</h3>
+                        <p>قهوة نقية بنكهة قوية ومميزة</p>
+                        <div class="card-footer">
+                            <span class="price">15 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_009.png" alt="Cappuccino">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">قهوة</span>
+                        <h3>كابتشينو</h3>
+                        <p>توازن مثالي بين الإسبريسو والحليب المبخر</p>
+                        <div class="card-footer">
+                            <span class="price">20 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_010.png" alt="Special">
+                        <div class="card-badge">جديد</div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">مميز</span>
+                        <h3>هيد سبيشل</h3>
+                        <p>وصفتنا الخاصة بالتوابل العربية</p>
+                        <div class="card-footer">
+                            <span class="price">28 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_011.png" alt="Latte">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">قهوة</span>
+                        <h3>لاتيه</h3>
+                        <p>قهوة ناعمة وكريمية بلمسة خاصة</p>
+                        <div class="card-footer">
+                            <span class="price">22 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_012.png" alt="Cake">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">حلويات</span>
+                        <h3>كيك عراقي</h3>
+                        <p>كيك تقليدي بالتمر والمكسرات</p>
+                        <div class="card-footer">
+                            <span class="price">18 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="images/post_013.png" alt="Croissant">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">مخبوزات</span>
+                        <h3>كرواسون بالزبدة</h3>
+                        <p>كرواسون فرنسي طازج بالزبدة</p>
+                        <div class="card-footer">
+                            <span class="price">12 ر.س</span>
+                            <button class="order-btn">اطلب الآن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label center">
+                    <span class="label-num">03</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">المعرض</span>
+                </div>
+                <h2 class="section-title center">لحظات من <span class="highlight">هيد</span></h2>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item gi-1"><img src="images/post_014.png" alt=""><div class="gi-overlay"><span>القهوة</span></div></div>
+            <div class="gallery-item gi-2"><img src="images/post_015.png" alt=""><div class="gi-overlay"><span>المساحة</span></div></div>
+            <div class="gallery-item gi-3"><img src="images/post_016.png" alt=""><div class="gi-overlay"><span>التصميم</span></div></div>
+            <div class="gallery-item gi-4"><img src="images/post_017.png" alt=""><div class="gi-overlay"><span>الأجواء</span></div></div>
+            <div class="gallery-item gi-5"><img src="images/post_018.png" alt=""><div class="gi-overlay"><span>التراث</span></div></div>
+            <div class="gallery-item gi-6"><img src="images/post_019.png" alt=""><div class="gi-overlay"><span>المجتمع</span></div></div>
+            <div class="gallery-item gi-7"><img src="images/post_020.png" alt=""><div class="gi-overlay"><span>الهوية</span></div></div>
+            <div class="gallery-item gi-8"><img src="images/post_021.png" alt=""><div class="gi-overlay"><span>التجربة</span></div></div>
+        </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <div class="stats-banner">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <span class="stat-num" data-target="2332">0</span>
+                <span class="stat-label">متابع</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num" data-target="67">0</span>
+                <span class="stat-label">منشور</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num" data-target="2025">0</span>
+                <span class="stat-label">التأسيس</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num-static">1</span>
+                <span class="stat-label">فرع في جدة</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Space Section -->
+    <section id="space" class="section space">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label center">
+                    <span class="label-num">04</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">المساحة</span>
+                </div>
+                <h2 class="section-title center">مساحة <span class="highlight">لإبداعك</span></h2>
+            </div>
+            <div class="space-grid">
+                <div class="space-card">
+                    <div class="space-icon">💻</div>
+                    <h3>منطقة العمل</h3>
+                    <p>مساحة مريحة للعمل والتركيز مع واي فاي عالي السرعة</p>
+                </div>
+                <div class="space-card">
+                    <div class="space-icon">🎨</div>
+                    <h3>المساحة الإبداعية</h3>
+                    <p>منطقة للفنانين والمبدعين لعرض أعمالهم</p>
+                </div>
+                <div class="space-card">
+                    <div class="space-icon">📚</div>
+                    <h3>ركن القراءة</h3>
+                    <p>مجموعة مختارة من الكتب والمجلات العربية</p>
+                </div>
+                <div class="space-card">
+                    <div class="space-icon">🌿</div>
+                    <h3>الحديقة الخارجية</h3>
+                    <p>مساحة خارجية مريحة مع إطلالة على الطبيعة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label center">
+                    <span class="label-num">05</span>
+                    <span class="label-line"></span>
+                    <span class="label-text">الشهادات</span>
+                </div>
+                <h2 class="section-title center">ماذا يقول <span class="highlight">زوارنا</span></h2>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card active">
+                    <div class="tc-quote">"</div>
+                    <p>هيد ليس مجرد مقهى، هو تجربة. كل تفصيل يحك قصة، وكل لحظة هنا تشعر وكأنك في مكان خاص بك.</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">س</div>
+                        <div class="tc-info">
+                            <strong>سارة أحمد</strong>
+                            <span>مصممة جرافيك</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote">"</div>
+                    <p>أفضل مقهى في جدة بلا منازع. القهوة ممتازة والأجواء لا تُقاوم. أصبحت مكاني المفضل للعمل.</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">م</div>
+                        <div class="tc-info">
+                            <strong>محمد العلي</strong>
+                            <span>رائد أعمال</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="tc-quote">"</div>
+                    <p>التصميم الأنيق والقهوة الرائعة يجعلان من هيد المكان المثالي لقاء الأصدقاء وتبادل الأفكار.</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">ن</div>
+                        <div class="tc-info">
+                            <strong>نورة خالد</strong>
+                            <span>كاتبة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="slider-btn" id="prevTestimonial">→</button>
+                <div class="slider-dots" id="sliderDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-btn" id="nextTestimonial">←</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-label">
+                        <span class="label-num">06</span>
+                        <span class="label-line"></span>
+                        <span class="label-text">تواصل معنا</span>
+                    </div>
+                    <h2 class="section-title">نحن في <span class="highlight">انتظارك</span></h2>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <strong>العنوان</strong>
+                                <p>شارع الساري، الأزهر، جدة 23435</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🕐</span>
+                            <div>
+                                <strong>ساعات العمل</strong>
+                                <p>السبت - الخميس: ٧ ص - ١١ م</p>
+                                <p>الجمعة: ٢ م - ١١ م</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📱</span>
+                            <div>
+                                <strong>التواصل</strong>
+                                <p>@heed_cafe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://instagram.com/heed_cafe" target="_blank" class="social-link">Instagram</a>
+                        <a href="https://tiktok.com/@heed_cafe" target="_blank" class="social-link">TikTok</a>
+                        <a href="https://linkedin.com/company/heed-cafe" target="_blank" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <input type="text" placeholder="الاسم" required>
+                            <input type="tel" placeholder="الجوال" required>
+                        </div>
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                        <textarea placeholder="رسالتك" rows="4" required></textarea>
+                        <button type="submit" class="submit-btn">
+                            <span>إرسال الرسالة</span>
+                            <span class="btn-arrow">←</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>هيد | HEED</h3>
+                    <p>قهوة مختصة | تجربة أصيلة | مجتمع حقيقي</p>
+                </div>
+                <div class="footer-quote">
+                    <p>"الأبواب مفتوحة. البن مطهو. القلوب ممتلئة."</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Heed Cafe. جميع الحقوق محفوظة.</p>
+                <p class="credit">الهوية البصرية: @majdkamal.designs</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lb-close" id="lbClose">×</button>
+        <img src="" alt="" id="lbImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

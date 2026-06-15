@@ -1,0 +1,55 @@
+# Heed Cafe - Color Palette
+# Extracted from Brand Identity Project by Majd Kamal
+
+## Primary Colors
+- Sandy Beige: #D4C5A9
+- Warm Brown: #8B7355
+- Deep Charcoal: #2C2C2C
+- Off-White: #F5F0E8
+
+## Secondary Colors
+- Desert Terracotta: #C4956A
+- Sand Gold: #C9B896
+- Earth Brown: #6B5344
+- Cream: #F2EBE0
+
+## Accent Colors
+- Muted Olive: #7A7A5A
+- Warm Gray: #9E9589
+- Desert Rose: #B89B8A
+
+## Background Colors
+- Primary BG: #F5F0E8 (Off-White)
+- Dark BG: #0a0806
+- Card BG: #1a1510
+
+## Text Colors
+- Primary Text: #2C2C2C
+- Light Text: #F5F0E8
+- Muted Text: #9E9589
+
+## Color Usage Guidelines
+- Background: Off-White (#F5F0E8) for light theme
+- Headings: Warm Brown (#8B7355)
+- Body Text: Deep Charcoal (#2C2C2C)
+- Accents/CTAs: Desert Terracotta (#C4956A)
+- Cards: Sandy Beige (#D4C5A9)
+
+## Color Psychology
+- Sandy Beige: Warmth, comfort, desert landscape
+- Brown: Earthiness, coffee, stability
+- Off-White: Clean, modern, spacious
+- Terracotta: Heritage, craftsmanship, warmth
+
+## HEX Reference
+#D4C5A9 - Sandy Beige
+#8B7355 - Warm Brown
+#2C2C2C - Deep Charcoal
+#F5F0E8 - Off-White
+#C4956A - Desert Terracotta
+#C9B896 - Sand Gold
+#6B5344 - Earth Brown
+#F2EBE0 - Cream
+#7A7A5A - Muted Olive
+#9E9589 - Warm Gray
+#B89B8A - Desert Rose

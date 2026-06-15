@@ -1,0 +1,39 @@
+# Heed Cafe - Typography System
+
+## Font Selection
+- Arabic: Tajawal / Reem Kufi
+- English: Montserrat / Inter
+
+## Font Weights Used
+- Light: 300
+- Regular: 400
+- Medium: 500
+- Bold: 700
+- Extra Bold: 800
+
+## Typography Hierarchy
+- Logo: Reem Kufi (700-800)
+- H1: Tajawal (800)
+- H2: Tajawal (700)
+- H3: Tajawal (600)
+- Body: Tajawal (400)
+- Caption: Tajawal (300)
+
+## Arabic Typography Style
+- Modern Naskh-inspired
+- Clean and readable
+- Warm character
+
+## English Typography Style
+- Geometric Sans-Serif
+- Clean lines
+- Modern feel
+
+## Web Fonts (Google Fonts)
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Reem+Kufi:wght@400;500;600;700&display=swap');
+
+## Usage Guidelines
+- Minimum body text: 16px
+- Line height: 1.6-1.8
+- Letter spacing: Normal to slightly wide
+- Paragraph spacing: 1.5rem
