@@ -5,32 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const preloader = document.getElementById('preloader');
     setTimeout(() => preloader.classList.add('hidden'), 2500);
 
-    // Custom Cursor
-    const cursor = document.querySelector('.cursor');
-    const follower = document.querySelector('.cursor-follower');
-    let mx = 0, my = 0, fx = 0, fy = 0;
-
-    document.addEventListener('mousemove', e => {
-        mx = e.clientX;
-        my = e.clientY;
-        cursor.style.left = mx - 4 + 'px';
-        cursor.style.top = my - 4 + 'px';
-    });
-
-    function animateFollower() {
-        fx += (mx - fx) * 0.15;
-        fy += (my - fy) * 0.15;
-        follower.style.left = fx + 'px';
-        follower.style.top = fy + 'px';
-        requestAnimationFrame(animateFollower);
-    }
-    animateFollower();
-
-    document.querySelectorAll('a, button, .menu-card, .gallery-item').forEach(el => {
-        el.addEventListener('mouseenter', () => follower.classList.add('hover'));
-        el.addEventListener('mouseleave', () => follower.classList.remove('hover'));
-    });
-
     // Navigation
     const nav = document.getElementById('nav');
     const navToggle = document.getElementById('navToggle');
@@ -83,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Scroll Reveal
-    const revealElements = document.querySelectorAll('.menu-card, .gallery-item, .value-card, .space-card');
+    const revealElements = document.querySelectorAll('.menu-card, .gallery-item, .value-card, .space-card, .testimonial-card');
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
@@ -132,48 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }, step);
     }
-
-    // Testimonials Slider
-    const cards = document.querySelectorAll('.testimonial-card');
-    const dots = document.querySelectorAll('.dot');
-    const prevBtn = document.getElementById('prevTestimonial');
-    const nextBtn = document.getElementById('nextTestimonial');
-    let currentSlide = 0;
-
-    function updateSlider() {
-        cards.forEach((card, i) => {
-            card.classList.toggle('active', i === currentSlide);
-        });
-        dots.forEach((dot, i) => {
-            dot.classList.toggle('active', i === currentSlide);
-        });
-    }
-
-    if (nextBtn) {
-        nextBtn.addEventListener('click', () => {
-            currentSlide = (currentSlide + 1) % cards.length;
-            updateSlider();
-        });
-    }
-
-    if (prevBtn) {
-        prevBtn.addEventListener('click', () => {
-            currentSlide = (currentSlide - 1 + cards.length) % cards.length;
-            updateSlider();
-        });
-    }
-
-    dots.forEach((dot, i) => {
-        dot.addEventListener('click', () => {
-            currentSlide = i;
-            updateSlider();
-        });
-    });
-
-    setInterval(() => {
-        currentSlide = (currentSlide + 1) % cards.length;
-        updateSlider();
-    }, 6000);
 
     // Gallery Lightbox
     const lightbox = document.getElementById('lightbox');
@@ -255,11 +187,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         progressBar.style.width = (scrollTop / docHeight * 100) + '%';
     });
-
-    // Cursor styles for mobile
-    const style = document.createElement('style');
-    style.textContent = `@media(max-width:768px){.cursor,.cursor-follower{display:none!important}*{cursor:auto!important}}`;
-    document.head.appendChild(style);
 
     // Year
     const yearEl = document.querySelector('.footer-bottom p');
